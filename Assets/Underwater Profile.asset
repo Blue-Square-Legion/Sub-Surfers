@@ -18,10 +18,10 @@ MonoBehaviour:
     m_Value: -91
   redOutGreenIn:
     m_OverrideState: 1
-    m_Value: -38
+    m_Value: -128
   redOutBlueIn:
     m_OverrideState: 1
-    m_Value: -103
+    m_Value: -131
   greenOutRedIn:
     m_OverrideState: 0
     m_Value: 0
@@ -55,7 +55,7 @@ MonoBehaviour:
   active: 1
   type:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 5
   intensity:
     m_OverrideState: 0
     m_Value: 0
@@ -95,7 +95,7 @@ MonoBehaviour:
     m_Value: 0
   focusDistance:
     m_OverrideState: 1
-    m_Value: 12
+    m_Value: 2
   aperture:
     m_OverrideState: 1
     m_Value: 5.6
@@ -126,13 +126,13 @@ MonoBehaviour:
   active: 1
   lift:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_Value: {x: 0.41607422, y: 0.66631657, z: 1, w: 0.3455498}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_Value: {x: 0.5680996, y: 0.75051725, z: 1, w: -0.7225133}
   gain:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_Value: {x: 0.61920345, y: 0.79199123, z: 1, w: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
   active: 1
   temperature:
     m_OverrideState: 1
-    m_Value: 61
+    m_Value: -42
   tint:
     m_OverrideState: 1
-    m_Value: 54
+    m_Value: -13

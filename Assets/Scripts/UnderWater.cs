@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class UnderWater : MonoBehaviour
 {
-    [SerializeField] int depth = -10;
+    [SerializeField] int depth = 60;
     [SerializeField] Transform mainCamera;
     [SerializeField] Volume postProcessingVolume;
     [SerializeField] VolumeProfile surfacePostProcessing;
     [SerializeField] VolumeProfile underwaterPostProcessing;
-
+    public GameObject player;
     void Update()
     {
-        if (mainCamera.position.y < depth)
+        if (player.transform.position.y < depth)
         {
             EnableEffects(true);
         }
