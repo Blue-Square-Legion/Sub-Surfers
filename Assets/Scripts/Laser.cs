@@ -38,7 +38,7 @@ public class Laser : MonoBehaviour
         if (Input.GetKey(KeyCode.E))
             player.transform.Rotate(0f, .3f, 0f);
         
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hitInfo;
         if (Physics.Raycast(ray, out hitInfo, Mathf.Infinity))
            player.transform.LookAt(hitInfo.point);
