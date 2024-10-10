@@ -54,7 +54,6 @@ public class PlayerMain : MonoBehaviour,IHealth
 
         isGrounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.5f, groundLayer);
 
-        if(transform.position.y - playerHeight *.2f <= waterSurface.position.y)
         {
             isSwimming = true;
             rb.useGravity = false;
